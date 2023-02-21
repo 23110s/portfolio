@@ -13,3 +13,4 @@
 - 初 public リポジトリ
 - github の projects 練習
 - astro 使ってみたい
+- 初 github pages

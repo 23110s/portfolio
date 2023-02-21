@@ -1,6 +1,8 @@
-# portfolio
+# 概要
 
-ポートフォリオサイト
+個人のポートフォリオサイトを作って公開する用のリポジトリ
+
+[成果物](https://23110s.github.io/portfolio/)
 
 ## 目的
 
@@ -11,6 +13,6 @@
 サブ
 
 - 初 public リポジトリ
-- github の projects 練習
-- astro 使ってみたい
 - 初 github pages
+- 初 astro
+- github の projects / issues 練習

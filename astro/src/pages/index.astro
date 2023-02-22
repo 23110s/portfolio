@@ -2,26 +2,29 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="sone's Portfolio">
   <div class="container mx-auto px-4">
-    <div class="grid grid-cols-6 gap-4">
-      <div class="col-span-6">header</div>
+    <div class="grid grid-cols-6 gap-4 mt-8">
+      <div class="col-span-3"></div>
       <div class="col-span-6">
-        top
         <div
-          class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
+          class="p-6 max-w-[50%] mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
         >
-          <div class="shrink-0">
-            <img class="h-12 w-12" src="/favicon.svg" alt="ChitChat Logo" />
+          <div>
+            <img class="h-48 w-48" src="/icon.png" alt="ChitChat Logo" />
           </div>
           <div>
-            <div class="text-xl font-medium text-black">ChitChat</div>
-            <p class="text-slate-500">You have a new message!</p>
+            <div class="text-xl font-medium text-black">sone</div>
+            <p class="text-slate-500">Software Enginner</p>
+            <div class="mt-2 flex flex-row">
+              <img src="github-fill.svg" />
+              <img class="ml-2" src="twitter-fill.svg" />
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-span-6">about</div>
-      <div class="col-span-6">artifact</div>
+      <div class="col-span-6">現在更新中</div>
+      <div class="col-span-6">成果物</div>
     </div>
   </div>
 </Layout>
